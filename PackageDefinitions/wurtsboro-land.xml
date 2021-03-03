@@ -1,0 +1,31 @@
+<AssetPackage Name="wurtsboro-land" Version="0.1.0">
+	<ItemSettings>
+		<ContentType>UNKNOWN</ContentType>
+		<Title/>
+		<Manufacturer/>
+		<Creator/>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\wurtsboro-land\ContentInfo</AssetDir>
+			<OutputDir>ContentInfo\wurtsboro-land</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="wurtsboro-land">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\data</AssetDir>
+			<OutputDir>scenery</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+
